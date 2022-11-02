@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon dist/index.js"
+    "binary-search": "nodemon dist/binary-search.js",
+    "merge-sort": "nodemon dist/merge-sort.js",
+    "leet35": "nodemon dist/leet35.js"
   },
   "repository": {
     "type": "git",

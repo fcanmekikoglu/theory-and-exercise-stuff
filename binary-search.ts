@@ -1,11 +1,8 @@
 //  Binary Search - Divide & Conquer
 //  O(log n)
-let arr: number[] = [
-  1, 3, 4, 9, 22, 55, 68, 90, 91, 92, 150, 175, 176, 350, 568, 687, 987,
-];
-let arr2: number[] = [];
+let arr: number[] = [];
 for (let i = 1; i < 1024; i++) {
-  arr2.push(i);
+  arr.push(i);
 }
 
 let start: number = 0;
@@ -28,4 +25,4 @@ function binarySearch(
   else return binarySearch(arr, midIndex + 1, end, target);
 }
 
-binarySearch(arr2, start, end, target);
+binarySearch(arr, start, end, target);
