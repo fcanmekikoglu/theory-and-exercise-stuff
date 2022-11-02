@@ -1,0 +1,19 @@
+{
+  "name": "theory-and-exercise-stuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcanmekikoglu/theory-and-exercise-stuff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcanmekikoglu/theory-and-exercise-stuff/issues"
+  },
+  "homepage": "https://github.com/fcanmekikoglu/theory-and-exercise-stuff#readme"
+}
