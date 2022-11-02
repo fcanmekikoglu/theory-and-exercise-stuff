@@ -22,3 +22,12 @@ function searchInsert(nums: number[], target: number): number {
   }
   return low;
 }
+
+const testarr = [3, 6, 1, 2, 22];
+const testtarget = 2;
+const testtarget2 = 4;
+
+console.log(searchInsert(testarr, testtarget));
+console.log(searchInsert(testarr, testtarget2));
+
+export {};

@@ -36,3 +36,5 @@ const array: number[] = [
 ];
 
 console.log(mergesort(array));
+
+export {};

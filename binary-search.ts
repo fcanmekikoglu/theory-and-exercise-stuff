@@ -26,3 +26,5 @@ function binarySearch(
 }
 
 binarySearch(arr, start, end, target);
+
+export {};

@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "leet1351": "nodemon dist/leet1351.js",
+    "leet704": "nodemon dist/leet704.js",
     "binary-search": "nodemon dist/binary-search.js",
     "merge-sort": "nodemon dist/merge-sort.js",
     "leet35": "nodemon dist/leet35.js"
